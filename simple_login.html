@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/login.js"></script>
+</head>
+
+<body style="text-align:center; background-color: aqua; border-style: dashed; border-color: black;
+    color: rgb(0, 38, 255);">
+    <center>
+        <p id="error"></p>
+        <h1>Simple Log in</h1>
+
+        <table>
+            <tr>
+                <td>
+                    <label class="labelstyle">Username:</label>
+                    <input type="text" id="username" placeholder="Enter Username:">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="labelstyle">Password:</label>
+                    <input type="password" id="password" placeholder="Enter Password:">
+                </td>
+            </tr>
+        </table>
+        <a class="forgot" href="#" onclick="forgot()">Forgot Password</a>
+        <br />
+        <br />
+
+        <button id="press" type="button" onclick="login()">Log in</button>
+        <br />
+        <a class="register" href="register.html">Register here</a>
+</body>
+</center>
+
+</html>

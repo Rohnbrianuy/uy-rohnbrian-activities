@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css" </head>
+    <script src="js/register.js"></script>
+
+<body style="text-align:center; background-color: aqua; border-style: dashed; border-color: black;
+    color: rgb(0, 38, 255);">
+    <center>
+        <p id="failed"></p>
+        <h1>Register</h1>
+
+        <table>
+            <tr>
+                <td><label class="labelstyle">Username:</label>
+                    <input type="text" id="user" placeholder="Enter Username:">
+                </td>
+            <tr>
+                <td>
+                    <label class="labelstyle">Name:</label>
+                    <input type="text" id="name" placeholder="Enter Name:">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="labelstyle">Gender</label>
+                    <select name="gender" id="genders">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="labelstyle">Password:</label>
+                    <input type="password" id="pass" placeholder="Enter Password:">
+                </td>
+            </tr>
+            <br />
+        </table>
+        <button id="registers" href="#" type="button" onclick="register()">Register</button>
+        <br />
+        <a class="reg" href="simple_login.html">Already registered?</a>
+    </center>
+</body>
+
+</html>
